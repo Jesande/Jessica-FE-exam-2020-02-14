@@ -1,0 +1,107 @@
+html {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  background:#e6e6e6;
+  color: rgb(78, 74, 59);
+
+}
+header, nav, footer {
+  text-align: center;
+  color: #a0770f;
+  padding: 15px;
+}
+
+
+h1, h2 {
+  font-family: "incognito_proregular",Georgia,Times,Times New Roman,serif;
+  color: rgb(70, 46, 1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em ;
+  font-weight: normal;
+}
+
+h3, h4 {
+  color: #a0770f;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+h4 {
+  font-family: "tipparegular",Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+  font-variant: initial;
+  font-weight: 100;
+  font-size: 1.08em;
+}
+
+img {
+  width: 200px;
+  border: solid rgb(150, 128, 118) 1px;
+}
+.small {
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+article h3 {
+  background-color: light;
+}
+
+main section:nth-child(even) {
+  background-color: rgb(238, 237, 228);
+}
+
+section  {
+  padding: 5px 30px;
+}
+
+article {
+  margin-bottom: 50px;
+  max-width: 500px;
+}
+
+a {
+  color: #a0770f;
+  text-decoration: none;
+  font-family: "tipparegular",Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+}
+
+/* unvisited link */
+a:link {
+  color: #a0770f;
+  text-decoration: none;
+
+}
+
+/* visited link */
+a:visited {
+  color:#aa8e3a;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(144, 85, 46);
+}
+
+/* selected link */
+a:active {
+  color:#7c5d0e;
+}
+
+.discount {
+  color: red;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+p em {
+  text-decoration-line: line-through;
+}
